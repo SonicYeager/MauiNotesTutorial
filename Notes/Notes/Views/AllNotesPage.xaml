@@ -13,7 +13,7 @@
                         ItemsSource="{Binding Notes}"
                         Margin="20"
                         SelectionMode="Single"
-                        SelectionChanged="notesCollection_SelectionChanged">
+                        SelectionChanged="NotesCollection_SelectionChanged">
 
         <!-- Designate how the collection of items are laid out -->
         <CollectionView.ItemsLayout>
